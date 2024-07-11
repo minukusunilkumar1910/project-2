@@ -1,0 +1,139 @@
+*{
+   margin:0px;
+
+
+}
+body{  
+    background-repeat: no-repeat;
+    background-image: url(https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171_640.jpg);
+    background-size: cover;
+   }
+   .header{
+
+      display: flex;
+      flex-direction: row;
+      padding: 5px;
+      padding-left: 600px;
+      justify-content:space-between;
+     
+   
+   }
+   .headend{
+ color: aliceblue;
+display: flex;
+flex-direction: row;
+padding: 20px;
+padding-top: 33px;
+justify-content:space-evenly;
+font-size: 20px;
+padding-left: 50px;
+cursor: pointer;
+   }
+   .inpdiv
+   {
+padding: 25px;
+}
+.ch{
+color: rgba(168, 21, 221, 0.996);
+}
+.heading{
+   color:black;
+}
+   input{
+     background-color: rgba(16, 16, 16, 0.073);
+      margin: 0px;
+      height: 40px;
+      width: 200px;
+      border: 2px solid rgb(142, 20, 217);
+      border-right: 3px black;
+      font-size: large;
+   
+   }
+   label{
+      height: 35px;
+      padding: 15px;
+      margin: 0cm;
+      background-color: rgba(168, 21, 221, 0.996);
+    color: beige;
+    font-size: large;
+   }
+   .joinbutton{
+   
+      height: 50px;
+      width: 150px;
+      background-color:rgb(116, 14, 218);
+      color: white;
+      font-size: 25px;
+      font-family: 'Courier New', Courier, monospace;
+      cursor: pointer;
+      border: 0ch;
+      border-radius: 10px;
+      
+   }
+   .joinbutton:hover{
+      color: rgb(163, 14, 238);
+      background-color: rgb(243, 34, 219);
+   }
+main{
+   font-size: 25px;
+   font-family: Arial, Helvetica, sans-serif;
+justify-content: space-between;
+display: flex;
+flex-direction: row;
+}
+.middle{
+
+   justify-content: left;
+   padding: 60px;
+   width: 1000px;
+   margin-top: 180px;
+   font-size: 30px;
+   font-family: 'Times New Roman', Times, serif;
+   color:rgb(150, 17, 150);
+}
+.fclass{
+   background-color: black;
+   padding: 50px;
+   margin-top: 260px;
+   margin-right: 200px;
+}
+.finput{
+   background-color: rgba(214, 186, 186, 0.073);
+    margin: 0px;
+    height: 50px;
+    width: 250px;
+    border: 0px;
+    border-bottom: 3px solid rgb(156, 8, 206);
+    padding-left: 2px;
+    color:whitesmoke;
+   
+}
+h1{
+   color: beige;
+
+}
+.p{
+   color: beige;
+}
+.loginbutton{
+   padding-left: 0px;
+   margin-left: 40px;
+}
+.submit{
+   height: 50px;
+   width: 150px;
+   background-color:rgb(150, 17, 150);
+   color: white;
+   font-size: 25px;
+   font-family: 'Courier New', Courier, monospace;
+   cursor: pointer;
+   border: 0ch;
+}
+.submit:hover{
+   background-color: rgb(185, 6, 77);
+   color: black;
+   
+}
+p{
+   color: rgb(9, 1, 6);
+}
